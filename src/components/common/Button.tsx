@@ -1,9 +1,7 @@
 import styled from '@emotion/styled'
 import React from 'react'
 
-interface ButtonProps extends React.HTMLAttributes<HTMLButtonElement> {
-  asdf: string
-}
+interface ButtonProps extends React.HTMLAttributes<HTMLButtonElement> {}
 
 const Button = ({ children, className }: ButtonProps) => {
   return <StyledButton className={className}>{children}</StyledButton>
@@ -20,3 +18,5 @@ const StyledButton = styled.button`
 `
 
 export default Button
+
+// typography 정의하기

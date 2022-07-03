@@ -7,8 +7,12 @@ interface TagButtonProps {
 }
 
 const Button = styled.button`
+  border: none;
   border-radius: 0.5rem;
-  background-color: ${({ theme }) => theme.primary};
+  margin-right: 1rem;
+  padding: 0;
+  background-color: ${({ theme }) => theme.background};
+  color: ${({ theme }) => theme.primary};
 `
 
 const TagButton = ({

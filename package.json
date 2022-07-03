@@ -20,10 +20,13 @@
   "dependencies": {
     "@emotion/react": "^11.9.3",
     "@emotion/styled": "^11.9.3",
+    "@fontsource/noto-sans-kr": "^4.5.10",
     "@mdx-js/react": "1.6.22",
     "eslint-plugin-prettier": "^4.0.0",
     "eslint-plugin-simple-import-sort": "^7.0.0",
     "gatsby": "^4.16.0",
+    "gatsby-plugin-emotion": "^7.17.0",
+    "lodash": "^4.17.21",
     "react": "^18.1.0",
     "react-dom": "^18.1.0"
   },

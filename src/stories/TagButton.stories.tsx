@@ -1,7 +1,7 @@
 import { ComponentMeta } from '@storybook/react'
 import React from 'react'
 
-import TagButton from '../../components/TagButton'
+import TagButton from '../components/common/TagButton'
 
 export default {
   title: 'TagButton',
